@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+    --main-color: #1DA599;
+    --secondary-color: #fff;
+}
+
+
+
+nav{
+    background: transparent;
+    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 999;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    justify-content: end;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0rem 1.2rem;
+    font-weight: 900;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 2rem;
+    color: var(--main-color);
+    font-family: "Outfit", sans-serif;
+}

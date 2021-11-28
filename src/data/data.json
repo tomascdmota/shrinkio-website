@@ -1,0 +1,10 @@
+{
+    "Navigation": {
+        
+        "home": "Home",
+        "services": "Services",
+        "about": "About us",
+        "login": "login"
+    }
+
+}
