@@ -1,0 +1,19 @@
+  button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #1da599;
+  border-radius: 100px;
+  border: 2px solid rgba(59.21568627450981%,19.215686274509817%,10.196078431372547%,0.2);
+  border-width: 3px 3px 3px 3px;
+  padding: 5px 20px 5px 20px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+ 

@@ -4,22 +4,21 @@
     --secondary-color: #fff;
 }
 
-
-
 nav{
     background: transparent;
     font-family: "Ubuntu", sans-serif;
     width: 100%;
-    height: 8vh;
+    height: 10vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: fixed;
+    position: relative;
     top: 0;
     margin: 0;
     z-index: 999;
 }
+
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -27,6 +26,8 @@ nav{
     list-style-type: none;
     text-align: center;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
     justify-content: end;
     margin-right: 20px;
     text-decoration: none;
@@ -40,14 +41,18 @@ nav{
     text-decoration: none;
     padding: 0rem 1.2rem;
     font-weight: 900;
+    align-self: center;
 }
 
 .nav-item {
     text-decoration: none;
+    align-self: center;
 }
+
 
 .logo {
     margin-left: 2rem;
     color: var(--main-color);
     font-family: "Outfit", sans-serif;
 }
+

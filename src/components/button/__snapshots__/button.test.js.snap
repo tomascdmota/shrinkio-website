@@ -1,0 +1,8 @@
+exports[`test renders correctly enzyme 1`] = `
+<div>
+  <button
+    onClick={[Function]}>
+    login
+  </button>
+</div>
+`;

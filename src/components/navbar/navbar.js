@@ -1,6 +1,7 @@
 import React from 'react'
 import navData from "../../data/data.json"
 import "./navbar.css"
+import Button from "../button/button"
 
 function navbar() {
     return (
@@ -19,7 +20,10 @@ function navbar() {
                     <a href="" className="nav-link">{navData.Navigation.about}</a>
                 </li>
 
-                <button>{navData.Navigation.login}</button>
+            <div className="button">
+                <Button/>
+            </div>
+               
 
             </ul>
             </nav>
